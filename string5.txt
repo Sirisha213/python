@@ -1,0 +1,6 @@
+txt='india is my country'
+i=0
+while i<len(txt):
+    letter=txt[i]
+    print(letter,end=" ")
+    i+=1

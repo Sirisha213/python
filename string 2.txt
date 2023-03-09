@@ -1,0 +1,6 @@
+txt1='india is great'
+txt2='is'
+if txt2 in txt1:
+    print("found")
+else:
+    print("not found")

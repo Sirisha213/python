@@ -1,0 +1,6 @@
+txt='sreya'
+print(txt)
+print(txt[1:5])
+print(txt[:6])
+print(txt[:])
+print(txt[-4])

@@ -1,0 +1,22 @@
+txt='jamesbond007'
+print(txt.isalnum())
+print(txt.isalpha())
+print(txt.isnumeric())
+print(txt.isdigit())
+print(txt.islower())
+print(txt.isupper())
+
+txt=' '
+print(txt.isspace())
+txt=""
+print(txt.isspace())
+txt='sreya'
+print(len(txt))
+txt='sr eya'
+print(len(txt))
+
+txt="sreya"
+print(txt.ljust(10,'*'))
+print(txt.rjust(10,'*'))
+print(txt.center(10,'$'))
+print(txt.capitalize())

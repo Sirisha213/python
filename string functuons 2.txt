@@ -1,0 +1,21 @@
+txt='subha'
+print(txt[::-1])
+
+txt='india'
+print(txt[::3])
+
+txt='   hi students   '
+print(txt.lstrip())
+
+ch='a'
+print(ord(ch))
+
+print(chr(115))
+
+txt='glucose'
+print(max(txt))
+print(min(txt))
+
+
+txt='sa sa sa sa'
+print(txt.replace('s','p'))

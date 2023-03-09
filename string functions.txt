@@ -1,0 +1,17 @@
+txt='sreya'
+index=0
+for i in txt:
+    print("message [",index,"] = ",i)
+    index+=1
+
+txt='the nun'
+print(txt.title())
+
+txt='DONKEY'
+print(txt.lower())
+
+txt='donkey'
+print(txt.upper())
+
+txt='8'
+print(txt.zfill(4))
